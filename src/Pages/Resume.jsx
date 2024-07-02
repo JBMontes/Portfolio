@@ -34,13 +34,13 @@ const Resume = () => {
         <li>Applied Mapbox API to provide route and direction to user location and emergency services. Modified markers to distinguish user location from emergency services.</li>
       </ul>
 
-      <h3>Grid | <a href="#">Live</a> | <a href="https://github.com/JBMontes/grid">GitHub</a></h3>
+      <h3>Grid | <a href="https://grid-ny.netlify.app/">Live</a> | <a href="https://github.com/JBMontes/grid">GitHub</a></h3>
       <ul>
         <li>Built backend using PostgreSQL, Express to hold user information, tasks created and process queries that distribute data to designated tables in the database.</li>
         <li>Designed frontend with React Vite and utilized vanilla CSS for styling.</li>
       </ul>
 
-      <h3>Roast | <a href="#">Live</a> | <a href="https://github.com/JBMontes/roast">GitHub</a></h3>
+      <h3>Roast | <a href="https://roast-ny.netlify.app/">Live</a> | <a href="https://github.com/JBMontes/roast">GitHub</a></h3>
       <ul>
         <li>Constructed backend with PostgreSQL as a database management system and Express to process queries that distribute data in the database.</li>
         <li>Generated frontend with React Vite and utilized vanilla CSS for styling.</li>
