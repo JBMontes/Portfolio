@@ -6,6 +6,12 @@
         "img":"VillageLogo.png"
     },
     {
+        "title":"Roast",
+        "description": "This is an application for coffee enthusiast and those beginning their coffee journey. The easy to use application gives users detailed information about the many types of coffee that they have tried and want to document. For the love of Coffee, I hope you enjoy the app!",
+        "link":"https://roast-ny.netlify.app/",
+        "img":"roast5.svg"
+    },
+    {
    "title":"Rainman",
    "description": "I built this word game as a project to continue sharpening my skills in javascript, vanilla css, and HTML. The black dashes at the top of the screen are the letters, in the random word, the user has been tasked to uncover. Each game gives the user a total of five (5) trys. If the wrong letters are chosen, the story of RainMan will unfold but remember, RainMan's path towards impending doom all depends on the user. Enjoy! ",
    "link":"https://rainman-jaranimo.netlify.app/",
@@ -18,9 +24,9 @@
     "img":"grid.svg"
 },
 {
-    "title":"Roast",
-    "description": "This is an application for coffee enthusiast and those beginning their coffee journey. The easy to use application gives users detailed information about the many types of coffee that they have tried and want to document. For the love of Coffee, I hope you enjoy the app!",
-    "link":"https://roast-ny.netlify.app/",
-    "img":"roast2.png"
+    "title":"Budgeter",
+    "description": "This app is meticulously crafted to help you keep a keen eye on your finances, allowing you to track every dollar with precision. It empowers you to gain a clear understanding of where your hard-earned money is going, ensuring that you can make informed financial decisions and optimize your spending habits." ,
+    "link":"https://mybudgeter.netlify.app/",
+    "img":"budgeter.svg"
 }
 ]
