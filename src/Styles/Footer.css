@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(126, 17, 17);
+  background: linear-gradient(
+    90deg,
+    rgba(126, 17, 17, 1) 0%,
+    rgba(201, 89, 89, 1) 55%,
+    rgba(205, 120, 120, 1) 97%
+  );
+}
+
+.github {
+  width: 40px;
+  height: 40px;
+}
+
+.linkedin {
+  width: 40px;
+  height: 40px;
+}
+
+.linkedin:hover {
+  background-color: white;
+}
+.github:hover {
+  background-color: white;
+}
+
+.footerButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerButton img {
+  margin: 0 10px;
+}

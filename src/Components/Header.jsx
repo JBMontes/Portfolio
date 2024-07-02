@@ -1,13 +1,22 @@
 import React from 'react';
+import { Link,  useNavigate } from 'react-router-dom';
+import "../Styles/Header.css"
 
 const Header = () => {
+    let nav = useNavigate()
     return (
-        <header>
-            <button> Projects</button>
+        <header className="header">
+            <div>
+                <h3 className="logo" onClick={()=> nav("/")}>JBM</h3>
+            </div>
+            <div className="button">
 
-             <img src="/Peru.jpeg" height="300px"></img>
+            <button onClick={()=> nav('/projects')}> Projects</button>
+            <button onClick={() => nav('/resume')}>Resume</button>
 
-             <button>Links</button>
+            </div>
+
+       
         </header>
     );
 };

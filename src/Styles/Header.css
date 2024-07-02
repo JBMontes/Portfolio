@@ -1,0 +1,58 @@
+.header {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+  margin: 15px;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: rgb(211, 152, 152);
+  color: black;
+}
+
+.logo {
+  border: 1px solid white;
+  margin: 14px;
+  padding: 10px;
+  border-radius: 60px;
+  font-size: medium;
+  max-height: 24px;
+}
+
+.logo:hover {
+  background-image: url("https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Nala");
+  background-size: cover;
+  background-color: none;
+  color: none;
+  font-size: 0px;
+  color: transparent;
+  max-height: 29px;
+  padding: 23px;
+}
+
+header {
+  border-bottom: 2px solid grey;
+  background: rgb(126, 17, 17);
+  background: linear-gradient(
+    90deg,
+    rgba(126, 17, 17, 1) 0%,
+    rgba(201, 89, 89, 1) 55%,
+    rgba(205, 120, 120, 1) 97%
+  );
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 10vh;
+  max-height: 10vh;
+  position: absolute;
+  top: 0px;
+}

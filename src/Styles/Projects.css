@@ -1,0 +1,52 @@
+.projectBody{
+color:black;
+margin-top: 100px;
+width:90vw;
+margin-left: 20px;
+
+}
+
+.titleImg img{
+    height:70px;
+    width:70px;
+    border-radius:10px;
+}
+
+.titleImg{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap:20px;
+}
+
+.projectCard{
+    padding:20px;
+    border: 2px solid rgb(127, 51, 51);
+    background-color: rgba(232, 159, 159, 0.14);
+    margin:10px;
+    border-radius:30px;
+}
+
+.projectBody h4{
+  
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+     
+}
+
+.projectBody h2{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+    
+}
+
+.projectCard img:hover{
+border: 2px solid brown;
+}
+
+.projectCard h2:hover{
+ color: brown
+    }
