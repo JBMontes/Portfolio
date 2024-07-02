@@ -30,7 +30,6 @@ const About = () => {
         multiTextDelay={4000}
         typeSpeed={40}
       />
-                {/* <h2>👋🏿 Hey, the name is Jeremy B. Montes.</h2> */}
             </div>
 
             <div className="image">

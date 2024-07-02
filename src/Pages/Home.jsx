@@ -4,7 +4,7 @@ import Skills from '../Components/Skills';
 const Home = () => {
     return (
         <div>
-            <About/>
+            <About />
             <Skills />
         </div>
     );

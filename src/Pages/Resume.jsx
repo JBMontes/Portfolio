@@ -6,14 +6,10 @@ const Resume = () => {
     <div className="resumeBody" style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
        
         <div className="contactInfo" >
-
-      {/* <h1>Jeremy B. Montes</h1> */}
       <p >
-        {/* <strong>Phone:</strong> (929) 235-3904<br /><br /> */}
-        <strong>Email:</strong> <a href="mailto:jeremymontes@pursuit.org">jeremymontes@pursuit.org</a><br />
-        {/* <strong>Location:</strong> Newark, NJ<br /> */}
-        <strong>LinkedIn:</strong> <a href="http://linkedin.com/in/jmontes">http://linkedin.com/in/jmontes</a><br />
-        <strong>GitHub:</strong> <a href="https://github.com/JBMontes">https://github.com/JBMontes</a>
+        <strong>Email:</strong> <a href="mailto:jeremymontes@pursuit.org" target="blank">jeremymontes@pursuit.org</a><br />
+        <strong>LinkedIn:</strong> <a href="http://linkedin.com/in/jmontes" target="blank">http://linkedin.com/in/jmontes</a><br />
+        <strong>GitHub:</strong> <a href="https://github.com/JBMontes" target="blank">https://github.com/JBMontes</a>
       </p>
 
         </div>
@@ -26,7 +22,7 @@ const Resume = () => {
       </ul>
 
       <h2>Software Engineering Projects</h2>
-      <h3>Village App | <a href="https://village-app.netlify.app/">Live</a> | <a href="https://github.com/JBMontes/village-app">GitHub</a></h3>
+      <h3>Village App | <a href="https://village-app.netlify.app/" target="blank">Live</a> | <a href= "https://github.com/JBMontes/Jeremy_Capstone_Frontend" target="blank"><img src="github.svg" className="githubIcon"/></a></h3>
       <ul>
         <li>Lead design efforts for Village app UI using Excalidraw to map out wireframe for each page.</li>
         <li>Collaborated with lead backend developer to create API contract, ensuring uniform naming conventions across application.</li>
@@ -34,13 +30,13 @@ const Resume = () => {
         <li>Applied Mapbox API to provide route and direction to user location and emergency services. Modified markers to distinguish user location from emergency services.</li>
       </ul>
 
-      <h3>Grid | <a href="https://grid-ny.netlify.app/">Live</a> | <a href="https://github.com/JBMontes/grid">GitHub</a></h3>
+      <h3>Grid | <a href="https://grid-ny.netlify.app/" target="_blank">Live</a> | <a href="https://github.com/JBMontes/grid-frontend" target="_blank"><img src="github.svg" className="githubIcon"/></a></h3>
       <ul>
         <li>Built backend using PostgreSQL, Express to hold user information, tasks created and process queries that distribute data to designated tables in the database.</li>
         <li>Designed frontend with React Vite and utilized vanilla CSS for styling.</li>
       </ul>
 
-      <h3>Roast | <a href="https://roast-ny.netlify.app/">Live</a> | <a href="https://github.com/JBMontes/roast">GitHub</a></h3>
+      <h3>Roast | <a href="https://roast-ny.netlify.app/" target="blank">Live</a> | <a href="https://github.com/JBMontes/Roast-Frontend" target="blank"><img src="github.svg" className="githubIcon"/></a></h3>
       <ul>
         <li>Constructed backend with PostgreSQL as a database management system and Express to process queries that distribute data in the database.</li>
         <li>Generated frontend with React Vite and utilized vanilla CSS for styling.</li>
