@@ -9,7 +9,7 @@
    "title":"Rainman",
    "description": "I built this word game as a project to continue sharpening my skills in javascript, vanilla css, and HTML. The black dashes at the top of the screen are the letters, in the random word, the user has been tasked to uncover. Each game gives the user a total of five (5) trys. If the wrong letters are chosen, the story of RainMan will unfold but remember, RainMan's path towards impending doom all depends on the user. Enjoy! ",
    "link":"https://rainman-jaranimo.netlify.app/",
-   "img":"/rainman.png"
+   "img":"/rainman2.svg"
 },
 {
     "title":"Grid",
