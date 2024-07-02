@@ -16,5 +16,11 @@
     "description": "This task management app allows you to keep track of those important tasks. On the Home Page, click the 'View All' button to see what you have in store for the days to come or the 'New Task' button to keep track of stored tasked. Users have the option to edit their tasks by clicking on the title of any card created. If the user is not satisfied or done with a task, they can simply press the delete button to get rid of it.",
     "link":"https://grid-ny.netlify.app/",
     "img":"grid.svg"
+},
+{
+    "title":"Roast",
+    "description": "This is an application for coffee enthusiast and those beginning their coffee journey. The easy to use application gives users detailed information about the many types of coffee that they have tried and want to document. For the love of Coffee, I hope you enjoy the app!",
+    "link":"https://roast-ny.netlify.app/",
+    "img":"roast.svg"
 }
 ]
