@@ -7,9 +7,9 @@ const Projects = () => {
         <div className="projectBody">
             <h1>Projects</h1>
 
-            {projects.map((project) => {
+            {projects.map((project, index) => {
                 return (
-                    <div className='projectCard'>
+                    <div  key={index} className='projectCard'>
                         <div className="titleImg">
                             <a href={project.link} target="blank"> <img src={project.img} /></a>
                             <div className="titleGit">
