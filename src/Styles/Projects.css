@@ -62,8 +62,48 @@
   justify-content: center;
 }
 
-.projectButton{
-    display:flex;
-    flex-direction: row;
+.projectButton {
+  display: flex;
+  flex-direction: row;
 }
 
+.projectLegend img {
+  width: 20px;
+  height: 20px;
+  border-radius: 0px;
+  border: none;
+}
+
+.lengendItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lengendItem text {
+  position: relative;
+  bottom: -10px;
+}
+.projectLegend text {
+  position: relative;
+  bottom: 3px;
+}
+
+.projectTitle {
+  margin-bottom: -4px;
+  color: brown;
+  text-decoration: underline black;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+text {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.projectLegend {
+  padding-bottom: 40px;
+}

@@ -5,7 +5,21 @@ import projects from '../project.json'
 const Projects = () => {
     return (
         <div className="projectBody">
-            <h1>Projects</h1>
+            <div className="projectLegend">
+                <h1 className="projectTitle">Projects</h1>
+
+
+                <img src='github.svg' alt="Github Icon" />
+                <text> : Github</text>
+                <br />
+
+
+                <img src='idea.svg' alt="Wireframe Icon" />
+                <text> : Wireframe</text>
+                <br />
+
+            </div>
+
 
             {projects.map((project, index) => {
                 return (
