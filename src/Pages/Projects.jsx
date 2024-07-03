@@ -9,12 +9,19 @@ const Projects = () => {
 
             {projects.map((project, index) => {
                 return (
-                    <div  key={index} className='projectCard'>
+                    <div key={index} className='projectCard'>
                         <div className="titleImg">
                             <a href={project.link} target="blank"> <img src={project.img} /></a>
                             <div className="titleGit">
                                 <a href={project.link} target="blank"><h2>{project.title}</h2></a>
-                                <a href={project.github} target="blank"> <img src='github.svg' /></a>
+                                <div className='projectButton'>
+                                    <a href={project.github} target="blank"> <img src='github.svg' /></a>
+                                    {project.idea ? (
+                                        <a href={project.idea} target="_blank">
+                                            <img src="idea.svg" alt="Idea Image" />
+                                        </a>
+                                    ) : null}
+                                </div>
                             </div>
                         </div>
                         <h4>{project.description}</h4>

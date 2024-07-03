@@ -22,7 +22,7 @@ const Resume = () => {
       </ul>
 
       <h2>Software Engineering Projects</h2>
-      <h3>Village App | <a href="https://village-app.netlify.app/" target="blank">Live</a> | <a href= "https://github.com/JBMontes/Jeremy_Capstone_Frontend" target="blank"><img src="github.svg" className="githubIcon"/></a></h3>
+      <h3>Village App | <a href="https://village-app.netlify.app/" target="blank">Live</a> | <a href= "https://github.com/JBMontes/Jeremy_Capstone_Frontend" target="blank"><img src="github.svg" className="githubIcon"/></a> | <a href= "https://excalidraw.com/#room=cd0e7c2a4a12a40c74ac,xfgHixlveRk5SOGyBzsdEg" target="blank"><img src="idea.svg" className="ideaIcon"/></a>  </h3>
       <ul>
         <li>Lead design efforts for Village app UI using Excalidraw to map out wireframe for each page.</li>
         <li>Collaborated with lead backend developer to create API contract, ensuring uniform naming conventions across application.</li>

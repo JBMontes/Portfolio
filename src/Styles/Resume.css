@@ -51,7 +51,25 @@ h2 {
   position: relative;
   top: 4px;
 }
-
+.ideaIcon{
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    border: none;
+    border-radius:0px;
+    position: relative;
+    top: 4px;
+}
+.ideaIcon:hover{
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    background-color: white;
+    border: 1px solid brown;
+    position: relative;
+    border-radius: 100px;
+    top: 8px;
+}
 .githubIcon:hover {
   width: 20px;
   height: 20px;
