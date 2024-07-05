@@ -10,15 +10,20 @@
 
 .landingBody{
     overflow-y: hidden;
+    overflow-x: hidden;
     display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding:10px;
-    margin-top:82px;
+    /* margin-top:70px; */
     background-image: url('/sky4.jpg');
     background-size: cover;
     animation: moveBackground 70s linear infinite; 
-    height:88vh;
+    height:100vh;
+    width:100vw;
+    position:absolute;
+    z-index:10
 }
 
 .landingBody button{
@@ -34,8 +39,8 @@
 display:flex;
 flex-direction:column;
 align-items: center;
-position:relative;
-top:30px;
+/* position:relative;
+top:160px; */
 }
 
 @keyframes moveBackground {

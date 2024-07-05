@@ -1,42 +1,43 @@
-import { useState } from "react";
-import { useNavigate } from 'react-router-dom';
-import useScrollToTop from './useScrollToTop';
-import "../Styles/Header.css"
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import useScrollToTop from "./useScrollToTop";
+import "../Styles/Header.css";
 
-const Header = () => {
-    const [pageKey, setPageKey] = useState("/");
-    let nav = useNavigate()
-    useScrollToTop();
+const Header = ({pageKey, setPageKey}) => {
 
-    const handlePageChange = (e) => {
-        const selectedPage = e.target.value;
-        setPageKey(selectedPage);
-        nav(selectedPage); 
-    }
+  let nav = useNavigate();
+  useScrollToTop();
 
-    const handleLogoChange = (e) => {
-        const selectedPage = "/";
-        setPageKey(selectedPage);
-        nav(selectedPage); 
-    }
+  const handlePageChange = (e) => {
+    const selectedPage = e.target.value;
+    setPageKey(selectedPage);
+    nav(selectedPage);
+  };
 
-    return (
-        <header className="header">
-            <div>
-                <h3 className="logo" onClick={handleLogoChange}>JBM</h3>
-            </div>
+  const handleLogoChange = (e) => {
+    const selectedPage = "/";
+    setPageKey(selectedPage);
+    nav(selectedPage);
+  };
 
-            <div className="headerButton">
+  return (
+    <header className="header">
+      <div>
+        <h3 className="logo" onClick={handleLogoChange}>
+          JBM
+        </h3>
+      </div>
 
-<select value={pageKey} onChange={handlePageChange}>
+      <div className="headerButton">
+        <select value={pageKey} onChange={handlePageChange}>
           <option value="/">Welcome</option>
           <option value="/home">Home</option>
           <option value="/projects">Projects</option>
           <option value="/resume">Resume</option>
         </select>
-            </div>
-        </header>
-    );
+      </div>
+    </header>
+  );
 };
 
 export default Header;

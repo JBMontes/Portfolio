@@ -1,4 +1,4 @@
-
+import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 import Header from './Components/Header'
@@ -8,19 +8,19 @@ import Resume from './Pages/Resume';
 import Projects from './Pages/Projects';
 import Landing from './Pages/Landing';
 function App() {
-
+   const [pageKey, setPageKey] = useState("/");
    return (
       <>
          <Router>
-            <Header />
+            <Header pageKey={pageKey} setPageKey={setPageKey} />
 
             <Routes>
-               <Route path="/" element={<Landing />} />
+               <Route path="/" element={<Landing setPageKey={setPageKey} />} />
                <Route path="/home" element={<Home />} />
                <Route path="/resume" element={<Resume />} />
                <Route path="/projects" element={<Projects />} />
             </Routes>
-
+            
             <Footer />
 
          </Router>
