@@ -3,6 +3,8 @@
   margin-top: 100px;
   width: 90vw;
   margin-left: 20px;
+  overflow-y: scroll;
+  padding-bottom:80px;
 }
 
 .titleImg img {
