@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header className="header">
             <div>
-                <h3 className="logo" onClick={() => nav("/")}>JBM</h3>
+                <h3 className="logo" onClick={() => nav("/home")}>JBM</h3>
             </div>
 
             <div className="button">

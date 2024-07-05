@@ -1,0 +1,75 @@
+/* .landingBody::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3aad8e6e-33f3-4913-ac15-12becc7bd81f/db8w47q-f021c403-b0fc-42a2-ad95-dbca6214d33e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNhYWQ4ZTZlLTMzZjMtNDkxMy1hYzE1LTEyYmVjYzdiZDgxZlwvZGI4dzQ3cS1mMDIxYzQwMy1iMGZjLTQyYTItYWQ5NS1kYmNhNjIxNGQzM2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.acH9Y_3FOMX_mq9QEBBr-I_tXSPkYMBIOx63QVJbjco")
+}
+
+@keyframes imageShift {
+    
+  0% {
+    background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3aad8e6e-33f3-4913-ac15-12becc7bd81f/db8w47q-f021c403-b0fc-42a2-ad95-dbca6214d33e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNhYWQ4ZTZlLTMzZjMtNDkxMy1hYzE1LTEyYmVjYzdiZDgxZlwvZGI4dzQ3cS1mMDIxYzQwMy1iMGZjLTQyYTItYWQ5NS1kYmNhNjIxNGQzM2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.acH9Y_3FOMX_mq9QEBBr-I_tXSPkYMBIOx63QVJbjco")  ;
+    background-size: cover;
+    opacity:1;
+  
+
+  }
+  35% {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3aad8e6e-33f3-4913-ac15-12becc7bd81f/db8w47q-f021c403-b0fc-42a2-ad95-dbca6214d33e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNhYWQ4ZTZlLTMzZjMtNDkxMy1hYzE1LTEyYmVjYzdiZDgxZlwvZGI4dzQ3cS1mMDIxYzQwMy1iMGZjLTQyYTItYWQ5NS1kYmNhNjIxNGQzM2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.acH9Y_3FOMX_mq9QEBBr-I_tXSPkYMBIOx63QVJbjco");
+    background-size: cover;
+    opacity:1;
+  }
+  50% {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3aad8e6e-33f3-4913-ac15-12becc7bd81f/db8w47q-f021c403-b0fc-42a2-ad95-dbca6214d33e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNhYWQ4ZTZlLTMzZjMtNDkxMy1hYzE1LTEyYmVjYzdiZDgxZlwvZGI4dzQ3cS1mMDIxYzQwMy1iMGZjLTQyYTItYWQ5NS1kYmNhNjIxNGQzM2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.acH9Y_3FOMX_mq9QEBBr-I_tXSPkYMBIOx63QVJbjco");
+    background-size: cover;
+    opacity:0.9;
+  }
+  75% {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3aad8e6e-33f3-4913-ac15-12becc7bd81f/db8w47q-f021c403-b0fc-42a2-ad95-dbca6214d33e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNhYWQ4ZTZlLTMzZjMtNDkxMy1hYzE1LTEyYmVjYzdiZDgxZlwvZGI4dzQ3cS1mMDIxYzQwMy1iMGZjLTQyYTItYWQ5NS1kYmNhNjIxNGQzM2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.acH9Y_3FOMX_mq9QEBBr-I_tXSPkYMBIOx63QVJbjco");
+    background-size: cover;
+    opacity:0.5;
+    
+  }
+
+  90% {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3aad8e6e-33f3-4913-ac15-12becc7bd81f/db8w47q-f021c403-b0fc-42a2-ad95-dbca6214d33e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNhYWQ4ZTZlLTMzZjMtNDkxMy1hYzE1LTEyYmVjYzdiZDgxZlwvZGI4dzQ3cS1mMDIxYzQwMy1iMGZjLTQyYTItYWQ5NS1kYmNhNjIxNGQzM2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.acH9Y_3FOMX_mq9QEBBr-I_tXSPkYMBIOx63QVJbjco");
+    background-size: cover;
+    opacity:0;
+   
+  }
+
+  100%{
+    background-image:none;
+
+  }
+ 
+} */
+
+.landingBody img{
+    height: 500px;
+    width:500px;
+    border:none;
+    border-radius: 0px;
+    
+
+}
+
+.landingBody{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+    margin-top:70px;
+    animation: imageShift 5s  ease-in-out forwards; 
+    animation-timing-function: linear;
+   
+}
+
+.landingBody button{
+    background-color:brown;
+    margin-bottom:50px;
+}
+
+
