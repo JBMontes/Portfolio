@@ -11,7 +11,7 @@ const Footer = () => {
                <img className="github" src='github3.svg' alt='github_link'/>
             </a>
             
-            <a href="www.linkedin.com/in/jeremy-b-montes">
+            <a href="https://linkedin.com/in/jeremy-b-montes">
                <img className="linkedin" src='linkedin.svg' alt='linkedin_link'/>
             </a>
 
