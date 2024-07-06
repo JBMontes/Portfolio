@@ -13,7 +13,7 @@ const Landing = ({ setPageKey }) => {
       <div className="logoAndButton">
         <img src="/jmLogo.png" alt="Jeremy Montes Logo" />
         <Link to="/home">
-          <button onClick={handleEnterClick}>Enter</button>
+          <button className="landingButton"onClick={handleEnterClick}>Enter</button>
         </Link>
       </div>
     </div>

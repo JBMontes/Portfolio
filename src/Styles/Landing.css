@@ -43,6 +43,18 @@ align-items: center;
 top:160px; */
 }
 
+.landingButton{
+color:white;
+border: 1px solid black;
+font-family: "Arsenal SC", sans-serif;
+font-weight: bold;
+font-style: normal;
+}
+
+.landingButton:hover{
+    border:1px solid white;
+    color:black;
+}
 @keyframes moveBackground {
     0% {
         background-position: 0 0; /* Start position */
