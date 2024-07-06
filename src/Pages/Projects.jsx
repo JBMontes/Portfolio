@@ -25,7 +25,7 @@ const Projects = () => {
                 return (
                     <div key={index} className='projectCard'>
                         <div className="titleImg">
-                            <a href={project.link} target="blank"> <img src={project.img} /></a>
+                            <a href={project.link} target="blank"> <img className='proImg' src={project.img} /></a>
                             <div className="titleGit">
                                 <a href={project.link} target="blank"><h2>{project.title}</h2></a>
                                 <div className='projectButton'>

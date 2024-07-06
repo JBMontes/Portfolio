@@ -2,7 +2,7 @@ import '../Styles/Skills.css'
 
 const Skills = () => (
     <div className='skillsSection' id='skills'>
-            <h2 className="skillTitle">Tech Skills</h2>
+            <h2 className="skillTitle">Technical Skills</h2>
             <div className="skillBody">
         <div className='skillsIcon'>
             <div className='skill-container'>

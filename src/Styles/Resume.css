@@ -35,7 +35,7 @@ margin-bottom:67px
 }
 
 strong {
-  color: rgb(206, 97, 97);
+  color: rgb(112,138,192);
 }
 
 .contactInfo a {
@@ -43,7 +43,7 @@ strong {
 }
 
 h2 {
-  color: brown;
+  color:rgb(38, 81, 175);
 }
 
 .githubIcon {
@@ -68,7 +68,7 @@ h2 {
     height: 20px;
     padding: 3px;
     background-color: white;
-    border: 1px solid brown;
+    border: 1px solid rgb(112,138,192);
     position: relative;
     border-radius: 100px;
     top: 8px;
@@ -78,7 +78,7 @@ h2 {
   height: 20px;
   padding: 3px;
   background-color: white;
-  border: 1px solid brown;
+  border: 1px solid rgb(112,138,192);
   position: relative;
   top: 8px;
 }

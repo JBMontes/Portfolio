@@ -17,7 +17,7 @@
     align-items: center;
     padding:10px;
     /* margin-top:70px; */
-    background-image: url('/sky4.jpg');
+    background-image: url('/sky.jpg');
     background-size: cover;
     animation: moveBackground 70s linear infinite; 
     height:100vh;
@@ -27,11 +27,11 @@
 }
 
 .landingBody button{
-    background-color:brown;
+    background-color: rgb(112,138,192);
     margin-bottom:50px;
 }
 .landingBody button:hover{
-    background-color:rgb(204, 123, 123);
+    background-color: rgb(48, 105, 229);;
     margin-bottom:50px;
 }
 

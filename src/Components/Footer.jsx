@@ -4,7 +4,6 @@ const Footer = () => {
     return (
         <footer className="footer">
             <h4>Thanks for visiting!</h4>
-            <h4>Jeremy B. Montes</h4>
 
             <div className="footerButton">
             <a href="https://github.com/JBMontes">
@@ -16,6 +15,7 @@ const Footer = () => {
             </a>
 
             </div>
+            <h4>Jeremy B. Montes</h4>
             
         </footer>
     );
